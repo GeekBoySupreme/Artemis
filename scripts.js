@@ -262,9 +262,9 @@ function launchDisplay(data){
 		launchInfo += webcast(vidLink[i]);
 		launchInfo += '<h3 class="rocket rocket-' + (i+1) + '">' + rockets[i] + '</h3>';
 		launchInfo += '<h3 class="mission mission-' + (i+1) + '">' + missions[i] + '</h3>'; 
-		launchInfo += '<p class="date date-' + (i+1) + '">' + launchDate[i] + '</p>'; 
+		launchInfo += '<p class="date date-' + (i+1) + '"><i id="blue-text" class="material-icons">event</i> ' + launchDate[i] + '</p>'; 
 		launchInfo += launchTime(window(windowOpenHr[i], windowOpenMin[i]), window(windowCloseHr[i], windowCloseMin[i]), wsstamp[i]); 
-		launchInfo += '<p class="launchpad launchpad-' + (i+1) + '">' + locations[i] + '</p></div>';
+		launchInfo += '<p class="launchpad launchpad-' + (i+1) + '"><i id="blue-text" class="material-icons">local_pizza</i> ' + locations[i] + '</p></div>';
 		launchArray.push(launchInfo);
 	}
 

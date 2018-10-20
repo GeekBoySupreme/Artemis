@@ -1172,6 +1172,14 @@ h1 .fa-rocket {
 {
   color:rgb(0,101,202);
 }
+#red-text
+{
+  color:rgb(212, 91, 11);
+}
+.material-icons
+{
+  font-size:16px;
+}
 .info-text {
   width: 96%;
   line-height: auto;
@@ -1327,6 +1335,7 @@ p.legend-item {
   margin:5px;
   
 }
+
 .sort-launches button:focus{
   outline:none;
 }
