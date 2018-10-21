@@ -260,7 +260,8 @@ function launchDisplay(data){
 		launchInfo += '<div class="top-info"><p class="agency agency-' + (i+1) + '">' + agencies[i] + '</p>';
 		launchInfo += '<p id="message1" class="message message1 hidden"></p><p id="message2" class="message message2 hidden"></p></div>';//Launch-specific Messages
 		launchInfo += webcast(vidLink[i]);
-		launchInfo += '<h3 class="rocket rocket-' + (i+1) + '">' + rockets[i] + '</h3>';
+		
+		launchInfo += '<h3 id="blue-text" class="rocket rocket-' + (i+1) + '"><span class="holder">' + rockets[i] + '<span id="display" class="diss"></span></span></h3>';
 		launchInfo += '<h3 class="mission mission-' + (i+1) + '">' + missions[i] + '</h3>'; 
 		launchInfo += '<p class="date date-' + (i+1) + '"><i id="blue-text" class="material-icons">event</i> ' + launchDate[i] + '</p>'; 
 		launchInfo += launchTime(window(windowOpenHr[i], windowOpenMin[i]), window(windowCloseHr[i], windowCloseMin[i]), wsstamp[i]); 
@@ -355,6 +356,9 @@ function getTimeZone(){
 	}
 }
 getTimeZone();
+
+
+
 
 
 //Sort launches by toggle buttons
