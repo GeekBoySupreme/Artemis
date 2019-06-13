@@ -504,9 +504,9 @@ body {
 #header {
   font-family: "Open Sans", sans-serif;
   width: 100%;
-  background-color: rgb(21, 71, 179);
+  background-color: rgb(33, 92, 219);
   position:fixed;
-  box-shadow: 0px 3px 5px 0px #0F2555;
+  box-shadow: 0px 1px 3px 0px rgba(95, 98, 104, 0.705);
 }
 
 .nav-inner {
@@ -883,7 +883,7 @@ h1 .fa-rocket {
     width: 100%;
     border-bottom: 1px solid #fff;
     border-top: 1px solid #fff;
-    box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2), 0 4px 16px 0 rgba(0, 0, 0, 0.19) !important;
+    box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2), 0 2px 12px 0 rgba(0, 0, 0, 0.19) !important;
   }
 }
 
@@ -1118,7 +1118,7 @@ h1 .fa-rocket {
 
 .page-signup {
   padding: 30px;
-  background-color: #0F2555;
+  background-color: rgb(39, 83, 180);
   margin: 0 30px 0 10px;
   max-width: 45%;
 }
@@ -1156,7 +1156,7 @@ h1 .fa-rocket {
           align-items: center;
   width: 96%;
   background-color:white;
-  color: #0F2555;
+  color: rgb(43, 85, 177);
   border: 1px solid #eff1f6;
   border-radius: 5px;
   margin: 0px auto;
@@ -1170,7 +1170,7 @@ h1 .fa-rocket {
 
 #blue-text
 {
-  color:rgb(0,101,202);
+  color:rgb(38, 134, 230);
 }
 #red-text
 {
@@ -1285,11 +1285,11 @@ p.legend-item {
 }
 
 .dark-box {
-  background-color: rgb(244,98,0);
+  background-color: rgb(250, 214, 54);
 }
 
 .light-box {
-  background-color: rgb(237, 248, 132);
+  background-color: rgb(243, 240, 88);
 }
 
 .sort-label {
@@ -1385,8 +1385,8 @@ button.all.on {
   width: 46%;
   margin: 5px;
   padding: 10px 10px 0 10px;
-  border-radius: 4px;
-  box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2), 0 4px 16px 0 rgba(0, 0, 0, 0.19) !important;
+  border-radius: 2px;
+  box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2), 0 2px 12px 0 rgba(0, 0, 0, 0.19) !important;
 }
 
 @media (max-width: 786px) {
@@ -1420,15 +1420,15 @@ button.all.on {
 .net {
   background-color: white;
   color: rgba(0, 0, 0, 0.85);
-  border-radius: 10px;
+  border-radius: 4px;
   
   padding:10px;
 }
  
 .highlighted {
-  background-color:rgb(244,98,0) ;
+  background-color:rgb(87, 86, 85) ;
   color: white;
-  border-radius: 10px;
+  border-radius: 4px;
   
 }
 
@@ -1601,7 +1601,7 @@ button.all.on {
   margin-top: 25px;
   
   background-color: #5B709F;
-  box-shadow: 0px -2px 8px 0px #0F2555;
+ 
 }
 
 @media (max-width: 768px) {
