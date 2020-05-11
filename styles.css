@@ -930,7 +930,7 @@ h1 .fa-rocket {
 .top-banner
 {
   width:100%;
-  background: url('img/space.png');
+  background: url('https://images.unsplash.com/photo-1460186136353-977e9d6085a1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80');
   height: 300px;
   object-fit: cover;
   margin-top:10px;
@@ -953,9 +953,14 @@ h1 .fa-rocket {
   font-weight: 700;
   padding: 15px;
   margin: 5px;
-  background: linear-gradient(to right, rgb(8, 120, 212), rgb(25, 151, 189));
+  background: rgba(0, 0, 0, 0.85);
   border: none;
   border-radius: 4px;
+  transition: 0.2s ease;
+}
+
+.coffee-button:hover {
+  background: rgba(0, 0, 0, 0.4);
 }
 
 
