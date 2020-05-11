@@ -18,7 +18,7 @@ html {
  */
 body {
   margin: 0;
-  background-color: #fff;
+  background-color: rgb(32, 32, 32);
 }
 
 /**
@@ -458,7 +458,6 @@ html, html a {
 
 /*------------  General Styles -------------*/
 body {
-  background-color: white;
   font-family: 'Nunito', sans-serif;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -466,6 +465,10 @@ body {
   -webkit-flex-direction: column;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+button:active {
+  outline: none;
 }
 
 .wrapper {
@@ -485,10 +488,19 @@ body {
 #header {
   font-family: 'Nunito', sans-serif;
   width: 100%;
-  background-color: rgb(33, 92, 219);
+  min-height: 70px;
+  height: auto;
+  border: none;
+  background-color: rgb(31, 30, 30);
   position:fixed;
-  box-shadow: 0px 1px 3px 0px rgba(95, 98, 104, 0.705);
 }
+
+@media (min-width: 320px) and (max-width: 480px) {
+  #header {
+    min-height: 60px!important;
+    height: auto;
+  }
+} 
 
 .nav-inner {
   max-width: 1300px;
@@ -931,10 +943,22 @@ h1 .fa-rocket {
 
 .top-banner h1,h4 {
   float: left;
-  padding: 20px;
+  padding: 5px 10px 5px 20px;
   margin: 10px;
   color: white;
 }
+
+.coffee-button {
+  color: white;
+  font-weight: 700;
+  padding: 15px;
+  margin: 5px;
+  background: linear-gradient(to right, rgb(8, 120, 212), rgb(25, 151, 189));
+  border: none;
+  border-radius: 4px;
+}
+
+
 .fa-bars {
   font-size: 1.8em;
   font-weight: 200;
@@ -1141,9 +1165,8 @@ h1 .fa-rocket {
       -ms-flex-align: center;
           align-items: center;
   width: 96%;
-  background-color:white;
-  color: rgb(43, 85, 177);
-  border: 1px solid #eff1f6;
+  background-color:rgb(43, 43, 43);
+  color: rgb(219, 226, 243);
   border-radius: 5px;
   margin: 0px auto;
   padding-top:20px;
@@ -1297,18 +1320,18 @@ p.legend-item {
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin: 10px;
+  margin: 20px;
 
 }
 
 .sort-launches button {
   margin: 6px;
   font-family: 'Nunito', sans-serif;
-  padding: 10px 15px 10px 15px;
+  font-weight: 700;
+  padding: 7px 15px 7px 15px;
   border: none;
-  background-color: rgb(0,101,202);
+  background-color: rgb(13, 111, 209);
   color: white;
-  border:1px solid white;
   transition:0.3s ease;
   border-radius: 50px;
 }
@@ -1404,15 +1427,15 @@ button.all.on {
 }
 
 .net {
-  background-color: white;
-  color: rgba(0, 0, 0, 0.85);
+  background-color: rgb(36, 36, 36);
+  color: rgb(233, 233, 233);
   border-radius: 4px;
   
   padding:10px;
 }
  
 .highlighted {
-  background-color:rgb(87, 86, 85) ;
+  background-color:rgb(53, 53, 53) ;
   color: white;
   border-radius: 4px;
   
@@ -1491,13 +1514,18 @@ button.all.on {
 }
 
 .time {
-  width: 60%;
   text-align: right;
   margin: 5px 0;
+  font-weight: 700;
+  padding: 3px 10px;
+  color: coral;
+  background: rgba(255, 127, 80, 0.151);
+  border-radius: 50px;
 }
 
 .net .time {
-  width: 40%;
+  width: 10%;
+  padding-left: 2px;
 }
 
 .launch p.webcast {
