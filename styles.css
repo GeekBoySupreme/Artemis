@@ -26,6 +26,10 @@ body {
   color: rgb(71, 134, 250);
 }
 
+button:focus {
+  outline: none;
+}
+
 /**
  * Add the correct display in IE 9-.
  */
@@ -868,12 +872,10 @@ h1 .fa-rocket {
 
 @keyframes fadeIn {
   from {
-    position: relative;
     top: 20px;
     opacity: 0;
   }
   to {
-    position: relative;
     top: 0px;
     opacity: 1;
   }
@@ -1439,6 +1441,8 @@ button.all.on {
   padding: 10px 10px 0 10px;
   border-radius: 2px;
   box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2), 0 2px 12px 0 rgba(0, 0, 0, 0.19) !important;
+
+  animation: fadeIn 0.1s;
 }
 
 @media (max-width: 786px) {
