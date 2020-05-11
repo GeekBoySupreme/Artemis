@@ -1,26 +1,7 @@
-/*
-Normalize
-General Styles
-Header
-Content
-Content > Launches
-Footer
-*/
-/*--------------------------------------------------------------
-# Normalize
---------------------------------------------------------------*/
-/*! normalize.css v4.2.0 | MIT License | github.com/necolas/normalize.css */
-/**
- * 1. Change the default font family in all browsers (opinionated).
- * 2. Correct the line height in all browsers.
- * 3. Prevent adjustments of font size after orientation changes in IE and iOS.
- */
-/* Document
-   ========================================================================== */
-   @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Nunito');
 
 html {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Nunito', sans-serif;
   /* 1 */
   line-height: 1.15;
   /* 2 */
@@ -478,7 +459,7 @@ html, html a {
 /*------------  General Styles -------------*/
 body {
   background-color: white;
-  font-family: 'Hind', sans-serif;
+  font-family: 'Nunito', sans-serif;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -502,7 +483,7 @@ body {
 
 /*------------  Header -------------*/
 #header {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Nunito', sans-serif;
   width: 100%;
   background-color: rgb(33, 92, 219);
   position:fixed;
@@ -539,7 +520,7 @@ body {
 
 #title
 {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Nunito', sans-serif;
   left:-100px;
 }
 
@@ -1141,7 +1122,7 @@ h1 .fa-rocket {
 
 /*------------ Content > Launches -------------*/
 .info {
-  font-family:"Open Sans", sans-serif;
+  font-family: 'Nunito', sans-serif;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -1317,7 +1298,7 @@ p.legend-item {
 
 .sort-launches button {
   margin: 6px;
-  font-family: "Open sans", sans-serif;
+  font-family: 'Nunito', sans-serif;
   padding: 10px 15px 10px 15px;
   border: none;
   background-color: rgb(0,101,202);
@@ -1558,7 +1539,7 @@ button.all.on {
   padding: 0;
   border: none;
   border-radius: 50px;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Nunito', sans-serif;
   transition:0.5s ease;
   padding-top:6px;
   padding-bottom:6px;
