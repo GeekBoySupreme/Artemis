@@ -874,9 +874,6 @@ h1 .fa-rocket {
     top: 54px;
     z-index: 9999;
     width: 100%;
-    border-bottom: 1px solid #fff;
-    border-top: 1px solid #fff;
-    box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2), 0 2px 12px 0 rgba(0, 0, 0, 0.19) !important;
   }
 }
 
@@ -888,7 +885,7 @@ h1 .fa-rocket {
     visibility: visible;
     width: 100%;
     color: #fff;
-    background-color: #0F2555;
+    background-color: rgb(31, 30, 30);
   }
 }
 
