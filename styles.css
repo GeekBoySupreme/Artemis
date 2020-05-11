@@ -1328,10 +1328,10 @@ p.legend-item {
   margin: 6px;
   font-family: 'Nunito', sans-serif;
   font-weight: 700;
-  padding: 7px 15px 7px 15px;
+  padding: 9px 15px 9px 15px;
   border: none;
-  background-color: rgb(13, 111, 209);
-  color: white;
+  background-color: rgba(13, 111, 209, 0.144);
+  color: rgb(53, 145, 238);
   transition:0.3s ease;
   border-radius: 50px;
 }
@@ -1362,9 +1362,8 @@ p.legend-item {
 }
 
 .sort-launches button:hover {
-  color: rgb(0,101,202);
-  background-color: white;
-  border: 1px solid rgba(0, 0, 0, 0.19);
+  color: white;
+  background-color: rgb(0,101,202);
 }
 
 .sort-launches button:focus {
@@ -1372,9 +1371,8 @@ p.legend-item {
 }
 
 button.on {
-  color: rgb(0,101,202);
-  background-color: white;
-  border: 1px solid rgba(0, 0, 0, 0.19);
+  color: white;
+  background-color: rgb(0,101,202);
 }
 
 button.all.on {
@@ -1435,7 +1433,7 @@ button.all.on {
 }
  
 .highlighted {
-  background-color:rgb(53, 53, 53) ;
+  background-color:rgb(46, 46, 46) ;
   color: white;
   border-radius: 4px;
   
@@ -1524,7 +1522,7 @@ button.all.on {
 }
 
 .net .time {
-  width: 10%;
+  width: 40px;
   padding-left: 2px;
 }
 
@@ -1552,7 +1550,7 @@ button.all.on {
 }
 
 .launchpad {
-  width: 100%;
+  width: auto;
   margin: 5px 0 8px 0;
   text-align: left;
 }
