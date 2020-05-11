@@ -29,7 +29,7 @@ function closeResponse(){
 	}
 }
 
-//HTTP Request - LaunchLibrary API data and pass to callback
+//HTTP Request - LaunchLibrary API data 
 function data(callback){
 	var url = 'https://launchlibrary.net/1.2/launch/next/150/mode=verbose';
 	var request = new XMLHttpRequest();

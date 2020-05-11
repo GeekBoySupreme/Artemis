@@ -905,9 +905,14 @@ h1 .fa-rocket {
   margin: 0;
   padding: 14px 20px 10px 20px;
   height: 50px;
+  color: white;
   background-color: transparent;
   border: none;
   visibility: hidden;
+}
+
+.menu:focus {
+  outline: none;
 }
 
 @media (max-width: 600px) {
@@ -987,6 +992,15 @@ h1 .fa-rocket {
           justify-content: space-between;
   padding: 10px 10px 20px 10px;
   margin-bottom: 60px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  #content {
+    position: relative;
+    left: -12px;
+  }
+  
 }
 
 @media (max-width: 768px) {
@@ -1182,6 +1196,7 @@ h1 .fa-rocket {
   color: rgb(219, 226, 243);
   border-radius: 5px;
   margin: 0px auto;
+  padding: 10px;
   padding-top:20px;
   margin-top:-40px;
 }
