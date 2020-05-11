@@ -235,7 +235,7 @@ function launchDisplay(data){
 	}
 	function webcast(link){
 		if(link !== ""){
-			return '<p class="webcast"><a href="' + link + '" title="Watch this launch!" target="_blank"><i class="fa fa-rocket" aria-hidden="true"></i>  Watch webcast</a></p>';
+			return '<p class="webcast"><a href="' + link + '" title="Watch this launch!" target="_blank"><i class="fas fa-space-shuttle"></i>  Watch webcast</a></p>';
 		}else{
 			return '<p class="no-webcast">Webcast unavailable</p>';
 		}
@@ -263,9 +263,9 @@ function launchDisplay(data){
 		
 		launchInfo += '<h3 id="blue-text" class="rocket rocket-' + (i+1) + '"><span class="holder">' + rockets[i] + '<span id="display" class="diss"></span></span></h3>';
 		launchInfo += '<h3 class="mission mission-' + (i+1) + '">' + missions[i] + '</h3>'; 
-		launchInfo += '<p class="date date-' + (i+1) + '"><i id="blue-text" class="material-icons">event</i> ' + launchDate[i] + '</p>'; 
+		launchInfo += '<p class="date date-' + (i+1) + '"><i id="blue-text" class="far fa-calendar-alt"></i> &nbsp;' + launchDate[i] + '</p>'; 
 		launchInfo += launchTime(window(windowOpenHr[i], windowOpenMin[i]), window(windowCloseHr[i], windowCloseMin[i]), wsstamp[i]); 
-		launchInfo += '<p class="launchpad launchpad-' + (i+1) + '"><i id="blue-text" class="material-icons">local_pizza</i> ' + locations[i] + '</p></div>';
+		launchInfo += '<p class="launchpad launchpad-' + (i+1) + '"><i id="blue-text" class="fas fa-location-arrow"></i> &nbsp;' + locations[i] + '</p></div>';
 		launchArray.push(launchInfo);
 	}
 

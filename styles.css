@@ -521,6 +521,7 @@ button:active {
 #logo {
   overflow: hidden;
   margin-left: 45px;
+  width: 50%;
 }
 
 @media (max-width: 768px) {
@@ -1504,7 +1505,7 @@ button.all.on {
   font-weight: 500;
   color: rgb(223, 41, 72);
   background: rgba(236, 54, 84, 0.11);
-  border-radius: 50px;
+  border-radius: 5px;
   padding-right: 5px;
   margin: 0 0 5px 0;
   font-size: 0.75em;
@@ -1571,7 +1572,7 @@ button.all.on {
 }
 
 .net .time {
-  width: 40px;
+  width: 50px;
   padding-left: 2px;
 }
 
