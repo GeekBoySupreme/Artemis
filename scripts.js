@@ -295,7 +295,7 @@ function paginate(){
 		}
 	}
 	if(main !== null){
-		main.innerHTML += '<button id="more-launches" class="highlighted"><p><i id="icons" class="em-svg em-mage"></i>Show All Launches</p></button>';
+		main.innerHTML += '<button id="more-launches" class="highlighted"><p><i class="fa fa-bolt"></i> &nbsp;Show All Launches</p></button>';
 		document.getElementById("more-launches").onclick=function(){
 			main.innerHTML = '';
 			for(i = 0; i < launchArray.length; i++){

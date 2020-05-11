@@ -1149,6 +1149,14 @@ h1 .fa-rocket {
   margin-top: 70px;
 }
 
+.header-panel {
+  width: 96%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 /*------------ Content > Launches -------------*/
 .info {
   font-family: 'Nunito', sans-serif;
@@ -1550,9 +1558,13 @@ button.all.on {
 }
 
 .launchpad {
-  width: auto;
+  width: 100%;
   margin: 5px 0 8px 0;
   text-align: left;
+}
+
+.util-spin-css {
+  margin: 0 auto;
 }
 
 #more-launches {
@@ -1565,19 +1577,21 @@ button.all.on {
   -webkit-flex-wrap: nowrap;
       -ms-flex-wrap: nowrap;
           flex-wrap: nowrap;
-  width: 60%;
+  width: 30%;
   margin: 5px 0;
   padding: 0;
   border: none;
+  font-weight: 700;
   border-radius: 50px;
   font-family: 'Nunito', sans-serif;
   transition:0.5s ease;
-  padding-top:6px;
-  padding-bottom:6px;
-  margin-top:20px;
-  color:rgb(0,101,202);
-  background:white;
- 
+  padding: 7px 12px;
+  margin-top: 20px;
+  color:rgb(36, 134, 233);
+}
+
+#more-launches i{
+  color: orange;
 }
 
 @media (max-width: 768px) {
