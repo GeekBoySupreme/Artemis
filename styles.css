@@ -918,17 +918,22 @@ h1 .fa-rocket {
 .top-banner
 {
   width:100%;
+  background: url('img/space.png');
+  height: 300px;
+  object-fit: cover;
   margin-top:10px;
-  overflow-x:none;
-  display: -webkit-flex;
-  display: -ms-flexbox;
+  overflow-x: none;
   display: flex;
-  -webkit-flex-wrap: wrap;
-      -ms-flex-wrap: wrap;
-          flex-wrap: wrap;
-  -webkit-justify-content: space-between;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+}
+
+.top-banner h1,h4 {
+  float: left;
+  padding: 20px;
+  margin: 10px;
+  color: white;
 }
 .fa-bars {
   font-size: 1.8em;
