@@ -24,3 +24,14 @@ export default {
   props: {}
 }
 </script>
+
+<style scoped>
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    lottie-player {
+      position: relative;
+      left: -22vw;
+    }
+    
+}
+</style>
