@@ -15,7 +15,7 @@
 						<p>&nbsp;</p>
 						<h4 class="white-text">Like the website?</h4>
 						<h4 class="white-text move-up">We don't do ads in here, so please donate and show your support.</h4>
-						<a href="paypal.me/ShuvamManna" target="blank">
+						<a href="https://paypal.me/ShuvamManna" target="blank">
 							<button class="coffee-button"><i class="fas fa-mug-hot" id="coffee-color"></i>&nbsp;&nbsp; Buy me a Coffee</button>
 						</a>
 						<br>
