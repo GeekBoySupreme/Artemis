@@ -1,4 +1,5 @@
 # artemis
+Artemis is a Space Flight Tracking App that uses the LaunchLibrary API to gather Space Flight Data and presents them in a refreshed, minimal and modern UI built with Vue.
 
 ## Project setup
 ```
