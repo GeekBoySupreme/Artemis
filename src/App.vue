@@ -18,7 +18,7 @@ export default {
     const plugin = document.createElement("script");
     plugin.setAttribute(
       "src",
-      "https://jugaadcdn.netlify.app/scripts.js"
+      "https://jugaadcdn.netlify.app/Artemis/scripts.js"
     );
     plugin.async = true;
     document.head.appendChild(plugin);
