@@ -1561,11 +1561,14 @@ button.all.on {
   color: coral;
   background: rgba(255, 127, 80, 0.151);
   border-radius: 50px;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .net .time {
-  width: 50px;
-  padding-left: 2px;
+  
 }
 
 .launch p.webcast {
