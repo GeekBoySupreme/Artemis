@@ -41,3 +41,8 @@ export default {
   props: {}
 }
 </script>
+<style scoped>
+header {
+	z-index: 1000!important;
+}
+</style>
