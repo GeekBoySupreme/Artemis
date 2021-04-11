@@ -2,7 +2,7 @@
     <header id="header" class="site-header">
 			<div class="nav-inner">
 				<div id="logo">
-					<h1 class="white-text"><i class="fas fa-space-shuttle"></i>&nbsp;Artemis</h1>
+					<h1 class="white-text">Artemis&nbsp;<i class="fas fa-space-shuttle"></i></h1>
 				</div>
 				<div class="header-content">
 					<div class="header-top">

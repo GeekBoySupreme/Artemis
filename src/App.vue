@@ -15,13 +15,6 @@ import InfoPanel from './components/InfoPanel.vue'
 
 export default {
   mounted() {
-    const plugin = document.createElement("script");
-    plugin.setAttribute(
-      "src",
-      "https://jugaadcdn.netlify.app/Artemis/scripts.js"
-    );
-    plugin.async = true;
-    document.head.appendChild(plugin);
   },
   name: 'App',
   components: {
